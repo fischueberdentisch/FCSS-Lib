@@ -1,0 +1,40 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-width {
+    width: 100%;
+}
+
+.flex-fit {
+    width: fit-content;
+}
+
+.flex-height {
+    height: 100%;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.flex-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.flex-column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+}
